@@ -755,7 +755,7 @@ export interface EntityType {
     name: string;
     entities: EntitySynonyms[];
     displayName: string;
-    kind: EntityKind;
+    kind: Kind;
     autoExpansionMode: EntityAutoExpansionMode;
 }
 
@@ -785,7 +785,7 @@ export interface EntitySynonyms {
     value: string;
 }
 
-export enum EntityKind {
+export enum Kind {
     KIND_MAP = "KIND_MAP",
     KIND_LIST = "KIND_LIST"
 }
